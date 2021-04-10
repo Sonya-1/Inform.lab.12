@@ -10,7 +10,7 @@ int main() {
 	std::cin >> c2;
 	std::cout << "c2: " << c2;
 	
-	complex_t c_sum = c1 + 8;
+	complex_t c_sum = c1 + c2;
 	complex_t c_diff = c1 - c2;
 	complex_t c_mult = c1 * c2;
 	complex_t c_div = c1 / c2;
